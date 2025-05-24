@@ -1,0 +1,247 @@
+@media (min-width:1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+max-width:1170px;
+}
+}
+@media only screen and (min-width:200px) and (max-width:1024px){
+
+header.header1{
+box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+z-index: 2;
+background-color:none;
+}
+div.head3{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+ul.navList{
+ display:none;
+        }
+a.nava{}
+a.nava:hover{
+background-color:white;
+line-height:30px;
+color:#7C00FE;
+text-decoration:none;
+line-height:30px;
+font-size:22px;
+font-weight:500;
+}
+
+ul.navListafter{
+ display:flex;
+box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+	height:200px;
+	width:100px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items:center;
+	justify-content:center;
+	position:absolute;
+	top:40px;
+	right:10px;
+	
+	background-color:white;
+}
+
+div.navToggle{
+border-radius:3px;
+display:flex; 
+flex-direction: row;
+justify-content: flex-end;
+
+}
+
+button.navButton{
+display:flex;
+border:none;
+padding:5px;
+position:absolute;
+}
+
+div.bannerContent{
+}
+
+ div.contentButton{
+line-height:15px;
+ 
+}
+div.bannerFcolumn{
+
+width:100%;
+}
+div.bannerScolumn{
+        width: 310px;
+        position: relative;
+        left: 15px;
+        bottom: 60px;
+}
+
+a.whats{
+line-height:24px;
+}
+div.bannerContent h1{
+font-size : 34px;
+line-height:36px;
+margin:0px;
+}
+div.bannerContent span{
+font-size : 36px;
+font-weight:750;
+color:#7C00FE;
+}
+
+image.profile{
+width:99.9%;
+
+}
+div.About{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+div.aboutContent{
+font-size:15px;
+line-height: 20px;
+width: 94%;
+text-align: center;
+}
+div.aboutImagecontent{
+display:none;
+}
+div.Skill{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+
+div.skillContent {
+    width:100%;
+text-align:center;
+}
+div.projectOne span{
+font-size:18px;
+}
+div.projectOne h2{
+font-size:16px;
+}
+
+
+h1.projectName{
+color:#7c00fe;
+font-size: 22px;
+}
+
+div.projectOne{
+font-size: 14px;
+width:100%;
+text-align:center;
+padding:40px;
+
+}
+div.Contact{
+text-underline-offset:10px;
+text-decoration-thickness:2px;
+font-size:30px;
+}
+div.contactContainer{
+width:100%;
+}
+input.contactInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 0.50rem;
+  margin-bottom:1.6rem;
+}
+textarea.contactInput {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 0.70rem;
+  }
+
+input.contactButton {  
+  font-size: 16px;
+}
+
+p.footerCopy {
+  font-size: 16px;
+margin-top: 13px;
+
+}
+p.footerTitle {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+
+div.skillData {
+  font-size:14px;
+}
+
+h2.pSkill{
+font-size:20px;
+  }
+p.skillText {
+font-size:16px;
+
+ }
+
+
+span.skillIcon {
+  font-size: 1rem;
+ }
+
+@media screen and (min-width: 560px) and (max-width: 1024px) {
+  div.bannerScolumn{
+        width: 300px;
+        position: relative;
+        left: 24px;
+        bottom: 1px;
+}
+
+ul.navList{
+ display:flex;
+ }
+
+button.navButton{
+display:none;
+
+}
+
+div.bannerFcolumn{
+
+width:50%;
+}
+
+div.bannerContent button{
+line-height:24px;
+}
+div.bannerContent h1{
+font-size : 32px;
+line-height:38px;
+margin-bottom:40px;
+}
+div.bannerContent span{
+font-size : 34px;
+font-weight:750;
+color:#7C00FE;
+}
+div.aboutContent{
+font-size:15px;
+line-height: 20px;
+width:48%;
+text-align: left;
+}
+div.aboutImagecontent{
+display:flex;
+}
+
+.logoImg{
+width:28px;
+height:28px;
+}
+
